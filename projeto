@@ -1,0 +1,11 @@
+lista = []
+
+def adicionar_item(item):
+    lista.append(item)
+    print("item adicionado.")
+def remover_item(item):
+    if item in lista:
+        lista.remove(item)
+        print("item removido!")
+    else:
+        print(" item nao encontrado!")

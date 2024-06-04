@@ -9,3 +9,11 @@ def remover_item(item):
         print("Item removido!")
     else:
         print(" Item nÃo encontrado!")
+
+while True:
+    print('1 - adicionar')
+    print('2 - remover')
+    print('3 - exibir')
+    print('4 - sair')
+
+    escolha = input('escolha uma opção:\n')
